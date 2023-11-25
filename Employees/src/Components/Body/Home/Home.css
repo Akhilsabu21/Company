@@ -1,0 +1,18 @@
+.h-body{
+    min-height: 430px;
+    height: auto;
+}
+
+.home-container{
+    display: grid;
+    grid-template-columns: 1fr 8fr 3fr;
+    gap: 5px;
+}
+
+.home-container div{
+    /* border-bottom: 1px solid grey; */
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    text-align: center;
+}
